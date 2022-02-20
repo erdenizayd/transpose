@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+}
+
+body {
+  background-color: #232323;
+  padding-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+
+}
+
+.App {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  color: #a7a7a7;
+  background-color: #3c3c3c;
+  resize: none;
+  height: 300px;
+  width: 200px;
+}
+
+label h1 {
+  font-weight: %125;
+  color: #a7a7a7;
+  text-align: left;
+  font-size: 10pt;
+}
+
+#count {
+  color: #a7a7a7;
+  margin: 10px;
+}
+
+#count button {
+  margin-right: 10px;
+}
+
+#head {
+  font-size: 250%;
+  color: #8c50cf;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#info {
+  font-size: 75%;
+  color: #a7a7a7;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  #count {
+      flex: 100%;
+      max-width: 100%;
+  }
+}
